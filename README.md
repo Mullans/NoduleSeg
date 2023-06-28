@@ -11,6 +11,7 @@ This algorithm was developed to enable the comprehensive evaluation of visual ex
 From the main directory, calling `scripts/generate_nodule_dataset.py` will generate a dataset of 100 training and 100 testing samples. By default, the samples will be saved in the [nnUNet](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1) raw data folder with the task name "Task902_NoduleSeg". You can change the number of samples, task name, or base directory by editing lines 55-58 in the script file.
 
 ## Required Packages
+
 * [gouda](https://github.com/Mullans/GOUDA)
 * [GoudaMI](https://github.com/Mullans/GoudaMI)
 * itk
